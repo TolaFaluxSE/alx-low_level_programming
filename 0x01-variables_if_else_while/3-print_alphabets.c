@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-* main : alphabets to be in uppercase & lowercase
+* main - print alphabets to be in uppercase & lowercase
 *
 * Description: Using the putchar function to print alphabet
 * in lowercase & uppercase
