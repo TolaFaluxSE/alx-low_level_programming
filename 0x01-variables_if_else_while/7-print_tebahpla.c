@@ -5,7 +5,7 @@
 /**
 * main - reversed alphabets in lowercase
 *
-* Description: Using the putchar function to print alphabet* reverse in lowercase
+* Description: putchar function to print alphabet* reverse * in lowercase
 * it is executed.
 *
 * Return: Always 0 (Success)
