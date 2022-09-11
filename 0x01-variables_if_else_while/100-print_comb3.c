@@ -5,7 +5,7 @@
 /**
 * main - print double digit combos.
 *
-* Description: print double digit separated by 
+* Description: print double digit separated by
 * comma and space.
 *
 * Return: Always 0 (Success)
@@ -31,7 +31,7 @@ putchar(44);
 putchar(32);
 }
 j++;
- 
+
 }
 
 i++;
