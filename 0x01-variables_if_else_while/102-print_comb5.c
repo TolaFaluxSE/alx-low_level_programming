@@ -15,17 +15,19 @@ int main(void)
 {
 int i, j, k, m;
 i = 48;
-
+ j = 48;
+ k = 48;
+ m = 48;
 while (i < 58)
 {
-j = 48;
+  j = i + 1;
 while (j < 58)
 {
-m = j + 1;
-k = 1;
+k = j + 1;
+
 while (k < 58)
 {
-
+  m = k + 1;
 while (m < 58)
 {
 putchar(i);
@@ -34,7 +36,7 @@ putchar(32);
 putchar(k);
 putchar(m);
 
-if (i < 57 || j < 56 || k < 57 || m < 57)
+if (i < 56 || j < 57 || k < 56 || m < 57)
 {
 putchar(44);
 putchar(32);
@@ -42,7 +44,7 @@ putchar(32);
 m++;
 
 }
-m = 48;
+
 k++;
 }
 j++;
