@@ -10,16 +10,15 @@
 *
 * Return: Always 0 (Success)
 */
-int main()
+int main(void)
 
 {
-char ch = 'a';
-putchar("Lowercase English Alphabets:\n"); 
-
-while(ch <= 'z')    
+int i = 97;
+while (i < 123)
 {
-putchar("%s\n", ch);
-ch++;
+putchar(i);
+i++;
 }
-return 0;  
+putchar(10);
+return 0;
 }
