@@ -5,7 +5,7 @@
 /**
 * main - print all single digit numbers of base 10 starting* from 0.
 *
-* Description: print all single digit numbers of base 10 st* arting from base 0.
+* Description: print all single digit numbers of base 10 fr* om base 0.
 *
 * Return: Always 0 (Success)
 */
