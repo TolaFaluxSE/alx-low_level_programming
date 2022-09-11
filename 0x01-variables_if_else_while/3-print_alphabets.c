@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-* Main : alphabets to be in uppercase & lowercase      
+* main : alphabets to be in uppercase & lowercase
 *
 * Description: Using the putchar function to print alphabet
 * in lowercase & uppercase
@@ -12,7 +12,7 @@
 *
 * Return: Always 0 (Success)
 */
-int main(void)  
+int main(void)
 {
 int a, A;
 a = 97;
