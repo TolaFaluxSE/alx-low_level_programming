@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
-* main - print triple digit combos.
+* main - print two two-digit number.
 *
-* Description: print triple digit separated by
+* Description: print two two-digit number separated by
 * comma and space.
 *
 * Return: Always 0 (Success)
