@@ -6,12 +6,3 @@
 * Description - print _putchar in file 0-putchar.c
 *
 */
-
-int main ()
-
-{
-putchar("_putchar\n");
-
-
-Return 0;
-}
