@@ -8,6 +8,7 @@
 *
 */
 
+char newFile = 'c'
 int _putchar(char c)
 {
   return 0;
