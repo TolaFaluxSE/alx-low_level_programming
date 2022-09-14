@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
-* Description: main header is a prototype in main.h file
+* main - prints _putchar
 *
-* main : prints _putchar to stdout
+* Description : prints _putchar
 *
-*
-* Return: 0
-* On error, -1 is returned, and errno is set appropriately.
+* Return: 0 (Success)
 */
 
 int main(void)
