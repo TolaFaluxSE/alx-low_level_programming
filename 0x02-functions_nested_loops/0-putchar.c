@@ -1,6 +1,8 @@
 #include "main.h"
 
 /**
+* main header is a prototype in main.h file
+*
 * main : prints _putchar to stdout
 * Description: prints _putchar without printf etc
 *
