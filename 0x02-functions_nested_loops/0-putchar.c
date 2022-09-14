@@ -2,7 +2,6 @@
 
 /**
 * main : prints _putchar to stdout
-*
 * Description: prints _putchar without printf etc
 *
 * Return: 0
