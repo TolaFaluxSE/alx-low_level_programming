@@ -23,7 +23,7 @@ if (hours_tens == '2')
 {
 hours_max = '4';
 }
-ours_ones = '0';
+hours_ones = '0';
 while (hours_ones < hours_max)
 {
 minutes_tens = '0';
