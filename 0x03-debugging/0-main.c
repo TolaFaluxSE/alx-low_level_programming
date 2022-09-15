@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* main - tests function that prints if integer is +ve or -ve
+* main - function that prints if integer is +ve or -ve
 *
-* Description : follow steps to print integer as +ve or -ve
+* Description - print integer as +ve or -ve
 *
 * Return: 0
 */
