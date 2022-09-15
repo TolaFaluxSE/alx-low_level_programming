@@ -6,7 +6,7 @@
 *
 * Description: prints the last digit of a number
 *
-* Retun: integer
+* Return: integer
 */
 
 
