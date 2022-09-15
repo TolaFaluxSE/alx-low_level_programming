@@ -8,22 +8,20 @@
 
 int main(void)
 {
-long int sum;
-long int first, second;
-int count;
-sum = 0;
-first = 0;
-second = 1;
-count = 0;
-while (count < 49)
+long int n1, n2, fn, afn;
+n1 = 1;
+n2 = 2;
+fn = afn = 0;
+while (fn <= 4000000)
 {
-sum = first + second;
-printf("%li, ", sum);
-first = second;
-second = sum;
-count++;
+fn = n1 + n2;
+n1 = n2;
+n2 = fn;
+if ((n1 % 2) == 0)
+{
+afn += n1;
 }
-sum = first + second;
-printf("%li\n", sum);
+}
+printf("%ld\n", afn);
 return (0);
 }
