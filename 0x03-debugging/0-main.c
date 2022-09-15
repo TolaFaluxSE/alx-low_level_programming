@@ -3,9 +3,7 @@
 /**
 * main - function that prints if integer is +ve or -ve
 *
-* Description - print integer as +ve or -ve
-*
-* Return: 0
+* Return: 0 (success)
 */
 
 int main(void)
