@@ -22,6 +22,7 @@ else
 {
 divisor++;
 }
- printf("%li\n", quotient);
+}
+printf("%li\n", quotient);
 return (0);
 }
