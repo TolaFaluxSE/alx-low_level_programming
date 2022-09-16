@@ -3,7 +3,9 @@
 /**
 * main - checks for uppercase
 *
+* Description: checking for uppercase
 * @c: characyer to check for case
+*
 * Return : 1 if uppercase, 0 if not
 */
 
