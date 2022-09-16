@@ -13,7 +13,7 @@ n = '0';
 repeat = 0;
 limit = '9';
 for (line = 0; line < 10; line++)
-{    
+{
 while (repeat < 2)
 {
 while (n <= limit)
