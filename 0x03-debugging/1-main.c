@@ -14,11 +14,11 @@ printf("Infinite loop incoming :(\n");
 i = 0;
 
 /**
-* while (i < 10)
+* while (i < 10) - Description: prevents the infinite loop
 * {
 * putchar(i);
 * }
-*/
+Description - \\o/ for special character */
 printf("Infinite loop avoided! \\o/\n");
 return (0);
 }
