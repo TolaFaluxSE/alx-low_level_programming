@@ -16,8 +16,8 @@ while (str[i] != '\0')
 {
 i++;
 }
-max = i
-j = max / 2
+max = i;
+j = max / 2;
 while (j <= max)
 {
 _putchar(str[j]);
