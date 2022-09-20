@@ -2,7 +2,7 @@
 
 /**
 * _atoi - convert a string to an integer
-* @str: string to be cconverted.
+* @s: string to be cconverted.
 * Return: The integer value of the converted string
 */
 
