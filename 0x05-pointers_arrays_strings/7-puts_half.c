@@ -1,12 +1,10 @@
 #include "main.h"
 
-
 /**
 * puts_half - prints half of a string
 * @str: string
 * return: void
 */
-
 
 void puts_half(char *str)
 {
@@ -20,8 +18,6 @@ max = i;
 j = max / 2;
 while (j <= max)
 {
-_putchar("str[j]\n");
+_putchar(str[j]);
 j++;
-}
-_putchar('\n');
 }
