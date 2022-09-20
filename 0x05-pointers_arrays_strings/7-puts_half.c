@@ -18,7 +18,7 @@ max = i;
 j = max / 2;
 while (j <= max)
 {
-_putchar(str[j]);
+_putchar(str[j] );
 j++;
 }
 _putchar('\n');
