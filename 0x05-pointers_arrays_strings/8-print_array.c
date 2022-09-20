@@ -23,7 +23,7 @@ printf("%d, ", a[i]);
 i++;
 count++;
 }
-printf("%d\n", a[i]);
+printf("%d", a[i]);
 }
- printf("\n");
+printf("\n");
 }
