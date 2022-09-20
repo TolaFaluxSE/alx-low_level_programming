@@ -20,7 +20,7 @@ max = i;
 j = max / 2;
 while (j <= max)
 {
-_putchar(str[j]);
+_putchar("str[j]\n");
 j++;
 }
 _putchar('\n');
