@@ -21,3 +21,4 @@ while (j <= max)
 _putchar(str[j]);
 j++;
 }
+}
