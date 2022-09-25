@@ -5,7 +5,7 @@
 * @src: second string to copy from
 * @dest: string to be overwritten
 * @n: number of values to concatenate
-* Description: concatenates n no of value from src to end_of_dest
+* Description: concatenates n number of values from src to end of* dest
 * Return: pointer to dest
 **/
 
