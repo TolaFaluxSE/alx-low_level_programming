@@ -25,4 +25,4 @@ i++;
 }
 dest[i] = src [j];
 return (dest);
-}4
+}
