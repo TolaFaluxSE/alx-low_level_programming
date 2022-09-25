@@ -19,7 +19,7 @@ if (y == 0)
 return (1);
 while (y >= 2)
 {
-power  = power * x;
+power  = power *x;
 y--;
 }
 return (power);
@@ -59,5 +59,5 @@ _putchar(digit + '0');
 counter = counter % exponent(10, size - 1);
 size--;
 }
-_putchar(sign * counter % 10 + '0');
+_putchar(sign *counter % 10 + '0');
 }
