@@ -29,7 +29,7 @@ return (len);
 
 /**
 * create_xarray - Creates an array of chars and initializes it wi* th
-* the character 'x'. Adds a terminating null byte.
+*  the character 'x'. Adds a terminating null byte.
 * @size: The size of the array to be initialized.
 *
 * Description: If there is insufficient space, the
@@ -72,7 +72,7 @@ return (str);
 * @c: The character to be converted.
 *
 * Description: If c is a non-digit, the function
-* exits with a status of 98.
+*              exits with a status of 98.
 * Return: The converted int.
 */
 
@@ -95,7 +95,7 @@ return (digit);
 * @zeroes: The necessary number of leading zeroes.
 *
 * Description: If mult contains a non-digit, the function
-* exits with a status value of 98.
+*              exits with a status value of 98.
 */
 
 void get_prod(char *prod, char *mult, int digit, int zeroes)
