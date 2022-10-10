@@ -5,9 +5,11 @@
 
 /**
 * File: 4-sum.h
-* Auth: TolaFaluxSE
+*
 * Desc: Header file that defines a function-like macro SUM(x, y)
 *       that computes the sum of the numbers x and y.
+* @x: a number
+* @y: a number
 */
 
 
