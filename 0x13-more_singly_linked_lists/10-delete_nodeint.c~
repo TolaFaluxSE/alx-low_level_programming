@@ -16,7 +16,7 @@ unsigned int cont = 0;
 
 /* border case for empty list */
 if (!(*head))
-
+}
 
 /* search of position to delete */
 idx = index - 1;
