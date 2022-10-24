@@ -9,30 +9,24 @@
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
-listint_t *aux_node = *head;
-listint_t *node_to_delete = *head;
-unsigned int idx;
-unsigned int cont = 0;
-
-/* border case for empty list */
-if (!(*head))
-
-
-/* search of position to delete */
-idx = index - 1;
-while (aux_node && cont != idx)
+listint_t *tmp, *copy = *head;
+unsigned int node;
+if (copy == NULL)
+return (-1);
+if (index == 0)
 {
-cont++;
-aux_node = aux_node->next;
-}
-
-/* general case */
-if (cont == idx && aux_node)
-{
-node_to_delete = aux_node->next;
-aux_node->next = node_to_delete->next;
-free(node_to_delete);
+*head = (*head)->next;
+free(copy);
 return (1);
 }
+for (node = 0; node < (index - 1); node++)
+{
+if (copy->next == NULL)
 return (-1);
+copy = copy->next;
+}
+tmp = copy->next;
+copy->next = tmp->next;
+free(tmp);
+return (1);
 }
